@@ -39,10 +39,11 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
+    <!-- JDBC URL: jdbc:h2:mem:testdb -->
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
-      <scope>runtime</scope>
+      <!-- <scope>runtime</scope> -->
     </dependency>
 
     <dependency>
